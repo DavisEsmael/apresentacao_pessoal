@@ -121,6 +121,7 @@ a {
 }
 
 .card {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -141,6 +142,84 @@ a {
   background: #dfdfdf;
   border-radius: 5px;
 }
+
+.card:nth-child(1)::before, 
+.card:nth-child(2)::before, 
+.card:nth-child(3)::before {
+  content: "";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 6.5px;
+  width: 19px;
+  height: 44px;
+  border-radius: 0 0 5px 5px;
+  background-color: #c4c4c4;
+
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.card:nth-child(1)::before {
+  content: "1";
+}
+
+.card:nth-child(2)::before {
+  content: "2";
+}
+
+.card:nth-child(3)::before {
+  content: "3";
+}
+/* **** Estilos Footer **** */
+
+.footer {
+  background-color: #c4c4c4;
+  padding: 16px 0;
+}
+
+.icons {
+  width: 100%;
+  margin-top: 25px;
+}
+
+.icons_gap {
+  gap: 20px;
+}
+
+.button {
+  width: 100%;
+  text-align: center;
+}
+
+.btn {  
+  color: #000;
+  display: inline-block;
+  background-color: #dfdfdf;
+  min-width: 162px;
+  padding: 8px 16px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.btn:hover {
+  color: #dfdfdf;
+  background-color: #afafaf;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
