@@ -35,13 +35,15 @@ a {
   padding: 28px 0;
 }
 
-
-
 .title {
   font-size: 40px;
   font-weight: 400;
   line-height: 40px;
   color: #000;
+}
+
+.link:hover {
+  color: #777 
 }
 
 /* **** Hamburguer * ****/
