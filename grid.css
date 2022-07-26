@@ -11,6 +11,13 @@
   margin: 0 auto;
 }
 
+.container_fluid {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
 @media (min-width:768px) {
   .container {
     max-width: 720px;
@@ -21,17 +28,29 @@
   .container {
     max-width: 960px;
   }
+
+  .container_fluid {
+    max-width: 982px;
+  }
 }
 
 @media (min-width:1200px) {
   .container {
     max-width: 1180px;
   }
+
+  .container_fluid {
+    max-width: 1195px;
+  }
 }
 
 @media (min-width:1400px) {
   .container {
     max-width: 1200px;
+  }
+
+  .container_fluid {
+    max-width: 1300px;
   }
 }
 
